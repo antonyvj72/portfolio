@@ -1,0 +1,93 @@
+.skill-heading {
+  text-transform: uppercase;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.skills-bar {
+  background: rgba(255, 255, 255, 0.913);
+  box-shadow: 5px 5px 10px rgb(180, 255, 67);
+  border-radius: 10px;
+  padding: 2px 30px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+}
+.skills-bar .bars {
+  margin: 20px 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.skills-bar .bars .info {
+  margin-bottom: 5px;
+}
+.skills-bar .bars .progress-line {
+  height: 10px;
+  position: relative;
+  width: 100%;
+  background: #f0f0f0;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5),
+    0px 1px rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+.bars .progress-line span {
+  height: 100%;
+  width: 80%;
+  background: greenyellow;
+  position: absolute;
+  border-radius: 10px;
+}
+.progress-line.html span {
+  width: 85%;
+}
+.progress-line.css span {
+  width: 80%;
+}
+.progress-line.boot span {
+  width: 65%;
+}
+.progress-line.js span {
+  width: 70%;
+}
+.progress-line.react span {
+  width: 65%;
+}
+@media screen and (max-width: 640px) {
+  .skills-bar {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .skills-bar {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+}
+@media screen and (max-width: 374px) {
+  .skills-bar {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .skills-bar {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+}
